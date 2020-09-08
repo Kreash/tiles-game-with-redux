@@ -1,0 +1,56 @@
+.field {
+    margin-top: 50px;
+    background-color: #BBADA0;
+    display: flex;
+    justify-content: center;
+    border-radius: 2%;
+    height: 400px;
+    width: 400px;
+    position: relative;
+  }
+  
+  .grid {
+    background-color: #CDC1B4;
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .gridItem_0 {
+    top: 5%;
+    left: 5%;
+  }
+  
+  .gridItem_1 {
+    top: 5%;
+    left: 55%;
+  }
+  
+  .gridItem_2 {
+    top: 55%;
+    left: 5%;
+  }
+  
+  .gridItem_3 {
+    top: 55%;
+    left: 55%;
+  }
+  
+  .red {
+    background-color: red;
+    transition: background-color 0.25s;
+  }
+  
+  .green {
+    background-color: green;
+    transition: background-color 0.25s;
+  }
+  
+  .notVisible {
+    background-color: white;
+    transition: background-color 0.25s;
+  }
